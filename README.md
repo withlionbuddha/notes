@@ -1,4 +1,4 @@
-# note
+# notes
 
 문서의 수정된 내용을 기록하여 관리하고 싶을때 GitHub or GitLab을 이용합니다.
 
