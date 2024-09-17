@@ -4,7 +4,7 @@ the COCO dataset(https://cocodataset.org) is free to download and use for non-co
 It is commonly used for training and evaluating machine learning models for object detection, 
 segmentation, and other tasks.
 
-the COCO dataset(https://cocodataset.org) 에서 🍇포토 이미지 찾는 단계
+ex) the COCO dataset(https://cocodataset.org) 에서 🍇포토 이미지 찾는 단계
 
 1. COCO Dataset Explore 페이지(https://cocodataset.org/#explore)로 이동합니다.
 2. "Categories"에서 원하는 카테고리를 선택할 수 있습니다. 
