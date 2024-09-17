@@ -6,9 +6,25 @@ segmentation, and other tasks.
 
 ex) the COCO dataset(https://cocodataset.org) 에서 🍇포도 이미지 찾는 단계
 
-1. COCO Dataset Explore 페이지(https://cocodataset.org/#explore)로 이동합니다.
-2. "Categories"에서 원하는 카테고리를 선택할 수 있습니다. 
-3. 포도를 찾기 위해서는 "Food" 관련 카테고리 중에서 포도(grape)를 찾습니다.
-4. 카테고리를 선택한 후, 해당 카테고리에 속하는 이미지 목록이 나타납니다. 
-5. 여기서 포도가 포함된 이미지를 찾고 다운로드할 수 있습니다.
-6. COCO 데이터셋은 다양한 객체의 카테고리로 구성되어 있으며, 해당 카테고리에 맞는 이미지를 쉽게 탐색할 수 있습니다.
+    1. COCO Dataset Explore 페이지(https://cocodataset.org/#explore)로 이동합니다.
+    2. "Categories"에서 원하는 카테고리를 선택할 수 있습니다. 
+    3. 포도를 찾기 위해서는 "Food" 관련 카테고리 중에서 포도(grape)를 찾습니다.
+    4. 카테고리를 선택한 후, 해당 카테고리에 속하는 이미지 목록이 나타납니다. 
+    5. 여기서 포도가 포함된 이미지를 찾고 다운로드할 수 있습니다.
+    6. COCO 데이터셋은 다양한 객체의 카테고리로 구성되어 있으며, 해당 카테고리에 맞는 이미지를 쉽게 탐색할 수 있습니다.
+
+ ex) COCO API 이용
+    COCO 데이터셋을 관리하는 Python API를 사용하여 Dataset을 가져오기
+
+    import os
+    import requests
+    from pycocotools.coco import COCO
+    
+    # wget 명령을 사용하여 COCO 데이터셋 다운로드
+    os.system('wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip')
+    
+    # 다운로드한 파일을 압축 해제
+    os.system('unzip annotations_trainval2017.zip')
+    
+    # COCO 데이터셋을 로드 (주석 파일을 통해)
+    coco = COCO('annotations/instances_train2017.json')
