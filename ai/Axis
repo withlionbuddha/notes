@@ -1,0 +1,31 @@
+😺 이미지 또는 영상 데이터 처리시 각 framework별로 데이터의 Axis 정의
+
+TensorFlow/Keras
+데이터 형태 shape (batch, height, width, channels)
+
+axis=0: Batch Size
+배치의 크기, 모델 학습시 한 번에 처리되는 데이터 샘플의 수를 나타냅니다.
+
+axis=1: Height (높이)
+이미지의 세로 길이를 나타냅니다.
+
+axis=2: Width (너비)
+이미지의 가로 길이를 나타냅니다.
+
+axis=3: Channels (채널)
+이미지의 색상 채널 수를 나타냅니다. 일반적으로 RGB는 3채널, 흑백 이미지는 1채널입니다.
+
+PyTorch
+데이터 형태 shape (batch, channels, height, width)
+
+axis=0: Batch Size
+배치의 크기, 한 번에 처리되는 샘플의 수를 나타냅니다.
+
+axis=1: Channels (채널)
+이미지의 색상 채널 수를 나타냅니다 (예: RGB는 3채널).
+
+axis=2: Height (높이)
+이미지의 세로 길이를 나타냅니다.
+
+axis=3: Width (너비)
+이미지의 가로 길이를 나타냅니다.
