@@ -7,5 +7,5 @@ Git은 GitHub와 통신하는 버전 관리 툴로, 로컬 파일(로컬 저장�
 Powershell or Command Prompt 에서 Git 명령어를 실행하시거나
 GitHub Desktop(https://github.com/apps/desktop) 을 설치하여 사용하면 됩니다.
 
-Location Based Sorting
+Location Based Sorting <br>
 🖤💚🤎💜💙❤️🩶🧡🩵💛🩷🤍
