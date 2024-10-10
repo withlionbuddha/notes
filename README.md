@@ -1,7 +1,7 @@
 # notes
 
 "We write our happy or cherished memories from the heart here, memories that will last forever.
-GitHub는 영원히 계속될것 같아서..100년후, 200년후, 1000년후에도"
+100년후, 200년후, 1000년후에도 Github는 계속 있을꺼니깐."
 
 문서의 수정된 내용을 기록하여 관리하고 싶을때 GitHub or GitLab을 이용합니다.
 Git은 GitHub와 통신하는 버전 관리 툴로, 로컬 파일(로컬 저장소 or Local Repository의 존재하는 파일)을 GitHub의 원격 저장소(Remote Repository)에 업로드할 수 있습니다.
