@@ -1,6 +1,6 @@
 # notes
 
-"We write our happy or cherished memories from the heart here, memories that will last forever. <br>
+"We write our happy memories from the heart here, memories that will last forever. <br>
 100년후, 200년후, 1000년후에도 Github는 계속 있을꺼니깐."
 
 문서의 수정된 내용을 기록하여 관리하고 싶을때 GitHub or GitLab을 이용합니다.
